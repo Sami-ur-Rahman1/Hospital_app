@@ -1,0 +1,24 @@
+import 'package:flutter/animation.dart';
+import 'package:flutter/material.dart';
+
+List<String> image = [
+  "bgi.jpeg",
+  "bgp.png",
+  "event1.jpg",
+];
+
+class myModel {
+  String images;
+
+  myModel ({
+    required this.images, 
+  });
+}
+
+List<myModel> all_data = [
+  myModel(images: image[0]),
+  myModel(images: image[1]),
+  myModel(images: image[2]),
+
+];
+
